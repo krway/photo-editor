@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-editor.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" style="color:green;text-decoration: none;">
+            PHOTO EDITOR
+        </a>
+    </div>
+    <hr style="margin:-15px 30% 30px 30%">
+    <div id="container">
+        <div class="text_box">
+            <div id="imageEditor">
+                <section id="editorContainer">
+                    <canvas id="editor"></canvas>
+                </section>
+            </div>
+            <div class="tool">
+                <section id="toolbar">
+                    <button id="flipHor" class="btn" style="background-color:lightblue" title="Flip Horizontally">Flip
+                        Horizontally</button>
+                    <button id="flipVert" class="btn" style="background-color:lightblue" title="Flip vertically">Flip
+                        vertically</button>
+                    <br>
+                    <br>
+                    <button id="rotateL" class="btn" style="background-color:lightpink" title="Rotate left">Rotate
+                        Left</button>
+                    <button id="rotateR" class="btn" style="background-color:lightpink" title="Rotate right">Rotate
+                        Right</button>
+                    <br>
+                    <br>
+                    <button id="resize" class="btn" style="background-color:rgb(29, 184, 223)"
+                        title="Resize">Resize</button>
+                    <button id="greyscale" class="btn" style="background-color:rgb(29, 184, 223)"
+                        title="Convert to grayscale">Grayscale</button>
+                    <br>
+                    <br>
+                    <button id="upload" class="btn" style="background-color:yellow" title="Upload">Upload</button>
+                    <button id="save" class="btn" style="background-color:lightgreen" title="Save">Save</button>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
